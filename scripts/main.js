@@ -1,9 +1,21 @@
-  window.addEventListener('scroll', () => {
-    const svg = document.getElementById('mySvg');
-    const scrollPosition = window.scrollY; // or use window.pageYOffset for cross-browser compatibility
+document.addEventListener('DOMContentLoaded', () => {
+    gsap.registerPlugin(ScrollTrigger);
 
-    // Adjust the fourth value in the viewBox attribute
-    // Assuming you want to increase it based on the scroll position
-    const newHeight = Math.max(0, scrollPosition); // Prevent negative height
-    svg.setAttribute('viewBox', `0 0 929.5 ${newHeight}`);
-  });
+    gsap.to(".profileText", {
+        opacity: 1,
+        x: 0,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+            trigger: ".profileTextContainer",
+            start: "top 80%",
+            end: "bottom 20%",
+            scrub: true,
+            toggleActions: "play none none reverse",
+            onEnter: () => gsap.to(".profileText", { opacity: 1, x: 0, duration: 1 }),
+            onLeave: () => gsap.to(".profileText", { opacity: 0, x: 100, duration: 1 }),
+            onEnterBack: () => gsap.to(".profileText", { opacity: 1, x: 0, duration: 1 }),
+            onLeaveBack: () => gsap.to(".profileText", { opacity: 0, x: 100, duration: 1 })
+        }
+    });
+});

@@ -1,0 +1,36 @@
+
+.pfp2Container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50vw;
+    height: 100%;
+    margin-left: 3vw;
+}
+
+.pfp2{
+    height: 30vw;
+    width: auto;
+    border: .25vw #6A3DE6 solid;
+    border-radius: 50%;
+}
+
+.profileTextContainer{
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 35vw;
+    height: 100%;
+    margin-right: 3vw;
+}
+
+.profileText{
+    font-size: 3vw;
+    color: #FFF;
+    opacity: 0; /* Start hidden */
+    transform: translateX(100px); /* Start off to the right */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth transition */
+}

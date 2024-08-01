@@ -1,5 +1,17 @@
 @media only screen and (max-width: 700px) {
+    .page {
+      height: 50vh;
+    }
+
+    .intro {
+      height: 100%;
+    }
+
     .navBar {
       display: none;
+    }
+
+    #squiggle {
+      stroke-width: 5;
     }
 }
