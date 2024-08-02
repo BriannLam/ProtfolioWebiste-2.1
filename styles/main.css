@@ -29,3 +29,38 @@ body {
 }
 
 
+.iconContainer {
+    position: fixed;
+    bottom: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 3;
+}
+
+.icon {
+    margin: 0 10px; /* Adjust spacing between icons */
+    width: 2vw; /* Adjust icon size */
+    height: 2vw; /* Ensure the container has a consistent height */
+    background-color: transparent;
+    border: 0.5vw solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%; /* Optional: Add this for circular borders */
+    transition: transform 0.3s ease; /* Smooth transition for the scale effect */
+}
+
+.icon:hover {
+    transform: scale(1.25); /* Scale up the icon by 1.5 times */
+    background-color: #6A3DE6;
+    border: 0.5vw solid #6A3DE6;
+}
+
+.icon img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
