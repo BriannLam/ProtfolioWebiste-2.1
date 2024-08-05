@@ -129,3 +129,24 @@ i{
 .grid-item-7 .background span i {
     -webkit-text-fill-color: #fff;
 }
+
+.projectsWelcome{
+    color: #FFF;
+    font-family: Ruthie;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 3vw;
+    transform: rotate(-11.664deg);
+    position: absolute;
+    z-index: 6;
+    text-shadow: 
+    0px 0px 67.603px #6A3DE6, 
+    0px 0px 135.205px #6A3DE6, 
+    0px 0px 473.218px #6A3DE6, 
+    0px 0px 946.436px #6A3DE6, 
+    0px 0px 1622.462px #6A3DE6, 
+    0px 0px 2839.309px #6A3DE6;
+
+}
