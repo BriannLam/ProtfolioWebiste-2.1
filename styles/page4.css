@@ -5,7 +5,7 @@ h1, p, i{
 }
 
 
-.projects{
+.project{
     color: white;
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,10 +15,6 @@ h1, p, i{
 }
 
 
-p{
-    font-size: 1vw;
-}
- 
 h1, h2, h3{
     background-color: #9d82e8;
     background: linear-gradient(to right, #9d82e8 10%,  #6A3DE6 70%);
@@ -28,12 +24,14 @@ h1, h2, h3{
 }
 
 h1{
-    font-size: 2vw;
+    font-size: 2vh;
 }
 
 i{
-    font-size: 2.5rem;
+    font-size: 4rem;
+    padding: 1rem;
     margin: auto;
+    color: #6A3DE6;
 }
 .gridContainer{
     max-width: 70vw;
@@ -63,6 +61,7 @@ i{
 
 .grid-item:hover{
     cursor: pointer;
+    transform: scale(1.1); /* Scale up the icon by 1.5 times */
     background-color: #555;
     outline: 1px solid #fff;
 }
@@ -86,6 +85,14 @@ i{
     grid-area: box6;
 }
 .grid-item-7{
+    background-color: #444;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: all 200ms ease;
     grid-area: box7;
 }
 .grid-item-8{
@@ -109,26 +116,18 @@ i{
 .grid-item-14{
     grid-area: box14;
 }
-.grid-item-7 .background {
-    background-color: #000;
-    height: 100%;
-    font-size: 4rem;
-    display: grid;
-    place-content: center;
-    border-radius: 0.35rem;
-}
 
-.grid-item-7 .background span{
-    background-color: #9d82e8;
-    background: linear-gradient(to right, #9d82e8 20%,  #6A3DE6 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.projectBack{
+    background-color: #000;
+    width: 100%;
+    border-radius: 0.75rem;
+    height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-.grid-item-7 .background span i {
-    -webkit-text-fill-color: #fff;
-}
+
+
 
 .projectsWelcome{
     color: #FFF;
@@ -137,10 +136,6 @@ i{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 3vw;
-    transform: rotate(-11.664deg);
-    position: absolute;
-    z-index: 6;
     text-shadow: 
     0px 0px 67.603px #6A3DE6, 
     0px 0px 135.205px #6A3DE6, 
@@ -150,3 +145,4 @@ i{
     0px 0px 2839.309px #6A3DE6;
 
 }
+
