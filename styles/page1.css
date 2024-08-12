@@ -10,12 +10,11 @@
     position: absolute;
     z-index: 6;
     text-shadow: 
-    0px 0px 67.603px #6A3DE6, 
-    0px 0px 135.205px #6A3DE6, 
-    0px 0px 473.218px #6A3DE6, 
-    0px 0px 946.436px #6A3DE6, 
-    0px 0px 1622.462px #6A3DE6, 
-    0px 0px 2839.309px #6A3DE6;
+    0px 0px 67.603px #dd8d40, 
+    0px 0px 135.205px #dd8d40, 
+    0px 0px 473.218px #dd8d40, 
+    0px 0px 946.436px #dd8d40, 
+    0px 0px 1622.462px #dd8d40;
 
 }
 
@@ -45,9 +44,9 @@
 }
 
 .pfp{
-    height: 30vw;
+    height: 35vw;
     width: auto;
-    border: .25vw #6A3DE6 solid;
+    border: .5vw #dd8d40 solid;
     border-radius: 50%;
 }
 
@@ -64,7 +63,7 @@
     display: flex;
     align-items: left;
     justify-content: left;
-    width: calc(100% - 5vw);
+    /* width: calc(100% - 5vw); */
     padding-left: 5vw;
 }
 
