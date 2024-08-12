@@ -1,3 +1,15 @@
+
+
+li{
+  list-style: none
+}
+
+.timeline1{
+  background-color: blue;
+}
+
+
+
 /* -------------------------------- 
 
 Primary style
@@ -8,17 +20,9 @@ Primary style
   box-sizing: border-box;
 }
 
-/* html {
-  font-size: 62.5%;
-} */
 
-.timeline {
-  font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #383838;
-}
 
-.date {
+a {
   color: #7b9d6f;
   text-decoration: none;
 }
@@ -319,9 +323,9 @@ Main Components
   line-height: 1.6;
 }
 @media only screen and (min-width: 768px) {
-  /* .cd-horizontal-timeline .events-content h2 {
+  .cd-horizontal-timeline .events-content h2 {
     font-size: 7rem;
-  } */
+  }
   .cd-horizontal-timeline .events-content em {
     font-size: 2rem;
   }
