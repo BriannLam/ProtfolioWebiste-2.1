@@ -16,14 +16,10 @@ h1, p, i{
 
 
 h1{
-    background-color: #9d82e8;
     background: linear-gradient(to right, #FCD195 10%,  #dd8d40 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: auto;
-}
-
-h1{
     font-size: 2vh;
 }
 

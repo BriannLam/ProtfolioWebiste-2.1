@@ -12,7 +12,7 @@ jQuery(document).ready(function($){
 			timelineComponents['timelineWrapper'] = timeline.find('.events-wrapper');
 			timelineComponents['eventsWrapper'] = timelineComponents['timelineWrapper'].children('.events');
 			timelineComponents['fillingLine'] = timelineComponents['eventsWrapper'].children('.filling-line');
-			timelineComponents['timelineEvents'] = timelineComponents['eventsWrapper'].find('a');
+			timelineComponents['timelineEvents'] = timelineComponents['eventsWrapper'].find('.a');
 			timelineComponents['timelineDates'] = parseDate(timelineComponents['timelineEvents']);
 			timelineComponents['eventsMinLapse'] = minLapse(timelineComponents['timelineDates']);
 			timelineComponents['timelineNavigation'] = timeline.find('.cd-timeline-navigation');
@@ -36,7 +36,7 @@ jQuery(document).ready(function($){
 				updateSlide(timelineComponents, timelineTotWidth, 'prev');
 			});
 			//detect click on the a single event - show new event content
-			timelineComponents['eventsWrapper'].on('click', 'a', function(event){
+			timelineComponents['eventsWrapper'].on('click', '.a', function(event){
 				event.preventDefault();
 				timelineComponents['timelineEvents'].removeClass('selected');
 				$(this).addClass('selected');
@@ -83,7 +83,7 @@ jQuery(document).ready(function($){
 
 		if ( newContent.length > 0 ) { //if there's a next/prev event - show it
 			var selectedDate = timelineComponents['eventsWrapper'].find('.selected'),
-				newEvent = ( string == 'next' ) ? selectedDate.parent('li').next('li').children('a') : selectedDate.parent('li').prev('li').children('a');
+				newEvent = ( string == 'next' ) ? selectedDate.parent('li').next('li').children('.a') : selectedDate.parent('li').prev('li').children('.a');
 			
 			updateFilling(newEvent, timelineComponents['fillingLine'], timelineTotWidth);
 			updateVisibleContent(newEvent, timelineComponents['eventsContent']);
@@ -165,11 +165,11 @@ jQuery(document).ready(function($){
 			visibleContent.removeClass('leave-right leave-left');
 			selectedContent.removeClass('enter-left enter-right');
 		});
-		eventsContent.css('height', selectedContentHeight+'px');
+		// eventsContent.css('height', selectedContentHeight+'px');
 	}
 
 	function updateOlderEvents(event) {
-		event.parent('li').prevAll('li').children('a').addClass('older-event').end().end().nextAll('li').children('a').removeClass('older-event');
+		event.parent('li').prevAll('li').children('.a').addClass('older-event').end().end().nextAll('li').children('.a').removeClass('older-event');
 	}
 
 	function getTranslateValue(timeline) {

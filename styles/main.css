@@ -55,8 +55,8 @@ body {
 
 .icon:hover {
     transform: scale(1.25); /* Scale up the icon by 1.5 times */
-    background-color: #6A3DE6;
-    border: 0.5vw solid #6A3DE6;
+    background-color: #9e4d18;
+    border: 0.5vw solid #9e4d18;
 }
 
 .icon img {
