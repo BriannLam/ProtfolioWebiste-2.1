@@ -1,11 +1,10 @@
 
 .pfp2Container{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     width: 50vw;
     height: 100%;
-    margin-left: 3vw;
 }
 
 .pfp2{
@@ -26,6 +25,6 @@
 }
 
 .profileText1{
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: #FFF;
 }
