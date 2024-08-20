@@ -13,7 +13,7 @@ padding: 0%;
 margin: 0%;
 color: white;
 line-height: 1.5;
-width: 90vw;
+width:90vw;
 margin: 0 auto;
 
 }
@@ -23,7 +23,7 @@ margin: 0 auto;
     font-family: Ruthie;
     top: 5%;
     right: 0;
-    font-size: 8vw;
+    font-size: 7vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -97,7 +97,7 @@ margin-left: 66%;
 .progress{
 margin: 0.8rem 0;
 border-radius: 10px;
-height: 3vh;
+height: 4vh;
 width: 100%;
 background-color: white;
 overflow: hidden;
@@ -132,4 +132,11 @@ width: 68%;
 
 span{
     font-size: 2.5vh;
+}
+
+.skills .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    column-gap: 20rem;
 }

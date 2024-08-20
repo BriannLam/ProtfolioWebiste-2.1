@@ -30,7 +30,12 @@
     padding-top: 2vw;
 }
 
-.aboutMe, .projects, .experience,  .abilities{
+
+.navBar :hover{
+    cursor: pointer;
+}
+
+.aboutMe, .projects, .experience,  .abilities, .resume{
     font-size: 2vw;
     color: aliceblue;
 }

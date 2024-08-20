@@ -31,10 +31,11 @@
     </svg>
     <!--End of Icons----------------------------------------------------------------------------------------------------------------------------------------------------------->
     <!--Welcome Page----------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div class="page">
+    <div class="page" id="welcome">
         <div class="welcome">Welcome</div>
         <div class="navBar">
             <div class="aboutMe">about me</div>
+            <div class="resume">resume</div>
             <div class="projects">projects</div>
             <div class="experience">experience</div>
             <div class="abilities">skills</div>
@@ -52,7 +53,7 @@
     </div>
     <!--End of Welcome Page--------------------------------------------------------------------------------------------------------------------------------------------------->
     <!--About Page------------------------------------------------------------------------------------------------------------------------------------------------------------>
-    <div class="page">
+    <div class="page" id="aboutMe">
         <div class="pfp2Container">
             <img class="pfp2" src="./assets/headshot2.png">
         </div>
@@ -63,7 +64,7 @@
     </div>
     <!--End of About Page----------------------------------------------------------------------------------------------------------------------------------------------------->
     <!--Resume Page----------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div class="page">
+    <div class="page" id="resume">
         <div class="profileText2Container">
             <div class="profileText2" data-aos="fade-right" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
         </div>
@@ -71,13 +72,13 @@
         <div class="resumeContainer">
             <div class="resumeText">Resume</div>
             <a href="./assets/Brian Lam-Resume (4).pdf">
-                <img class="resume" src="./assets/Brian Lam-Resume (4)-1.png">
+                <img class="resumePic" src="./assets/Brian Lam-Resume (4)-1.png">
             </a>
         </div>
     </div>
     <!--End of Resume Page---------------------------------------------------------------------------------------------------------------------------------------------------->
     <!--Project Page---------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div class="page project" >
+    <div class="page project" id="projects">
         <div class="gridContainer">
             <div class= "grid-item grid-item-1" data-aos="zoom-in" data-aos-duration="1000">
                 <i class="fa-solid fa-file"></i>
@@ -153,7 +154,7 @@
     </div>
     <!--End of Project Page------------------------------------------------------------------------------------------------------------------------------------------------>
     <!--Timeline Page------------------------------------------------------------------------------------------------------------------------------------------------------>
-    <div class="page timeline1">
+    <div class="page timeline1" id="timeline">
         <div class="cd-horizontal-timeline" data-aos="fade-up" data-aos-duration="1000">
             <div class="timeline" >
                 <div class="events-wrapper">
@@ -277,7 +278,7 @@
     </div>
     <!--End of Timeline Page----------------------------------------------------------------------------------------------------------------------------------------------->
     <!--Skills Page-------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div class="page">
+    <div class="page" id="skills">
         <section class="skills container">
             <div class="title">
                 <div class="skillTitle">Skills</div>
@@ -349,6 +350,9 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollToPlugin.min.js"></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/drawSvg.js"></script>
