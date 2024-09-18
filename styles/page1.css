@@ -41,6 +41,8 @@
 }
 
 .pfpContainer{
+    position: absolute;
+    right: 3vw;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -78,4 +80,59 @@
 
 .brianLam {
     font-size: 5vw;
+}
+
+
+@media (max-width: 700px) {
+    .welcomePage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navBar{
+        position: relative;
+        width: 100vw;
+        
+    }
+
+    .aboutMe, .projects, .experience,  .abilities, .resume{
+        font-size: 3vw;
+        color: aliceblue;
+    }
+
+    .welcome{
+        position: relative;
+        margin-left: 0;
+        font-size: 15vw;
+    }
+    .pfp{
+        height: 45vw;
+        border: 1vw #dd8d40 solid;
+    }
+
+    .pfpContainer {
+        position: relative;
+        height: auto;
+        width: auto;
+        right: 0;
+      }
+
+      .myNameIs, .brianLam, .typed {
+        padding-left: 0;
+    }
+
+    .intro {
+        align-items: center;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .pfp{
+        height: 50vw;
+    }
+    .welcome{
+        font-size: 25vw;
+    }
 }

@@ -1,5 +1,5 @@
 
-.pfp2Container{
+.pfp2Container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,8 +7,8 @@
     height: 100%;
 }
 
-.pfp2{
-    height: 30vw;
+.pfp2 {
+    height: 40vw;
     width: auto;
     border: .5vw #dd8d40 solid;
     border-radius: 50%;
@@ -27,4 +27,25 @@
 .profileText1{
     font-size: 2.5vw;
     color: #FFF;
+}
+
+@media (max-width: 700px) {
+    .profileText1Container{
+        height: auto;
+    }
+    .profileText1{
+        font-size: 4vw;
+    }
+    .pfp2 {
+        content: url('../assets/headshot3.png');
+        height: 40vh;
+        border: 1vw #dd8d40 solid;
+        border-radius: 0;
+    }
+    .pfp2Container {
+        justify-content: right;
+        width: 50vw;
+        height: 100%;
+    }
+    
 }
