@@ -1,3 +1,7 @@
+.resumePage{
+    height: 100vh;
+    display: flex;
+}
 
 .resumeContainer{
     position: absolute;
@@ -68,6 +72,9 @@
 
 
 @media (max-width: 700px) {
+    .resumePage{
+        height: 50vh;
+    }
     .profileText2Container{
         width: 40%;
         height: auto;
@@ -91,5 +98,9 @@
         border: 0.5vw solid #9e4d18;
         border-radius: 10%;
         
+    }
+
+    .resumeText{
+        font-size: 10vw;
     }
 }

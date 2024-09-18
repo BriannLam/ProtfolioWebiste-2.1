@@ -1,5 +1,8 @@
 
-
+.skillsPage{
+    height: 100vh;
+    display: flex;
+}
 
 
 body{
@@ -40,7 +43,6 @@ margin: 0 auto;
 
 
 .skills{
-padding: 5rem 0 2.5rem 0;
 }
 
 .skills > .text{
@@ -160,6 +162,9 @@ span{
 @media (max-width: 700px) {
     .skills .row{
         display: block;
+    }
+    .skillsPage{
+        height: 120vh;
     }
 
     .skillTitle{

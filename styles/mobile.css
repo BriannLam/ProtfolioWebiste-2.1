@@ -1,6 +1,6 @@
 @media only screen and (max-width: 700px) {
     .page {
-      height: 60vh;
+      height: 80vh;
     }
 
     .intro {
@@ -14,11 +14,18 @@
     #squiggle {
       stroke-width: 5;
     }
-}
-
-
-@media only screen and (max-width: 500px) {
-  .page {
-    height: 50vh;
+    .icon {
+      margin: 0 10px; /* Adjust spacing between icons */
+      width: 12vw; /* Adjust icon size */
+      height: 12vw; /* Ensure the container has a consistent height */
+      border: 3vw solid transparent;
+      border-radius: 20%; /* Optional: Add this for circular borders */
+  }
+  
+  .icon:hover {
+      transform: scale(1.25);
+      background-color: #9e4d18;
+      border: 2vw solid #9e4d18;
   }
 }
+
