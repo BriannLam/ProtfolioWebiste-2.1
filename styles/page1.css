@@ -87,6 +87,15 @@
     font-size: 5vw;
 }
 
+.fa-bars {
+    position: absolute;
+    height: auto;
+    width: auto;
+    right: 0px;
+    z-index: -1;
+    font-size: 3rem;
+    display: none;
+}
 
 @media (max-width: 700px) {
     .welcomePage{
@@ -96,8 +105,7 @@
         height: 100vh;
     }
     .navBar{
-        position: relative;
-        width: 100vw;
+        display: none;
         
     }
 
@@ -139,6 +147,11 @@
     .intro {
         align-items: center;
         height: auto;
+    }
+
+    .fa-bars {
+        display: block;
+        z-index: 2;
     }
 }
 
