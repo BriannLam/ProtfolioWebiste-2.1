@@ -22,6 +22,7 @@ function updateLine() {
     const centerX = window.innerWidth / 2;
     const squiggleAmplitude = 100; 
     const wavelength = 500; 
+    
 
     let pathData = `M ${centerX - squiggleAmplitude} 0 `;
     for (let y = 0; y <= newHeight; y += 10) {

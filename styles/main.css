@@ -61,8 +61,8 @@ html {
 
 .icon:hover {
     transform: scale(1.25); /* Scale up the icon by 1.5 times */
-    background-color: #9e4d18;
-    border: 0.5vw solid #9e4d18;
+    background-color: #ae622e;
+    border: 0.5vw solid #ae622e;
 }
 
 .icon img {
