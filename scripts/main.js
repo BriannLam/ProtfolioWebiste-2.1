@@ -35,3 +35,9 @@ document.querySelector('.abilities').addEventListener('click', function() {
         behavior: 'smooth' 
     });
 });
+
+document.querySelector('hamburger').addEventListener('click', function() {
+    document.getElementById('skills').scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});
