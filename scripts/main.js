@@ -41,3 +41,16 @@ document.querySelector('hamburger').addEventListener('click', function() {
         behavior: 'smooth' 
     });
 });
+
+$(document).ready(function() {
+    $('.burger-wrap').click(function() {
+        $('body').toggleClass('nav-open'); 
+        console.log("clicked!");
+    });
+  
+    $('.menu-cover').click(function() {
+        $('body').removeClass('nav-open');
+        console.log("unclicked!");
+    });
+  });
+  
