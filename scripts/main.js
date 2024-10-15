@@ -1,6 +1,21 @@
 
 AOS.init();
 
+document.addEventListener("DOMContentLoaded", function() {
+    // Add a click event listener to the burger-wrap element
+    document.querySelector('.burger-wrap').addEventListener('click', function() {
+        // Toggle the 'nav-open' class on the body element
+        document.body.classList.toggle('nav-open');
+        console.log("clicked!");
+    });
+
+    // Add a click event listener to the menu-cover element
+    document.querySelector('.menu-cover').addEventListener('click', function() {
+        // Remove the 'nav-open' class from the body element
+        document.body.classList.remove('nav-open');
+        console.log("unclicked!");
+    });
+});
 
 
 document.querySelector('.aboutMe').addEventListener('click', function() {
@@ -36,11 +51,6 @@ document.querySelector('.abilities').addEventListener('click', function() {
     });
 });
 
-document.querySelector('hamburger').addEventListener('click', function() {
-    document.getElementById('skills').scrollIntoView({ 
-        behavior: 'smooth' 
-    });
-});
 
 $(document).ready(function() {
     $('.burger-wrap').click(function() {
@@ -54,3 +64,8 @@ $(document).ready(function() {
     });
   });
   
+
+  function myFunction() {
+    const aboutMe = document.getElementById("aboutMe");
+    aboutMe.scrollIntoView();
+  }
