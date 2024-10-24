@@ -116,6 +116,7 @@
     }
 
     .welcome{
+        padding-top: 8vh;
         position: relative;
         margin-left: 0;
         font-size: 15vw;

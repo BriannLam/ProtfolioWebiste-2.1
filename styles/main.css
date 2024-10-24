@@ -17,8 +17,6 @@ body {
     display: flex;
 }
 
-
-
 #line {
     position: absolute;
     top:0;
@@ -204,11 +202,11 @@ nav ul {
   -webkit-transition:all .15s ease;  -moz-transition:all .15s ease;  -o-transition:all .15s ease;  transition:all .15s ease;
 }
 .menu-cover {
-  position:absolute;
+  position:fixed;
   left:0;
   top:0;
   right:0;
-  background:rgba(0,0,0,0.4);
+  background:rgba(0, 0, 0, 0.4);
   bottom:auto;
   z-index:10;
   cursor:pointer;

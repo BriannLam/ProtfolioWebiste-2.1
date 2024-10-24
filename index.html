@@ -30,13 +30,13 @@
           </div>
           <nav>
             <ul>
-              <div class = "menuItem" onclick="myFunction()">About Me</div>
+              <div class = "menuItem" onclick="scrollAboutMe()">About Me</div>
               <div class="seperateLine">_________</div>
-              <div class = "menuItem" id = "resume">Resume</div>
+              <div class = "menuItem" onclick="scrollResume()">Resume</div>
               <div class="seperateLine">_________</div>
-              <div class = "menuItem" id = "project">Projects</div>
+              <div class = "menuItem" onclick="scrollProject()">Projects</div>
               <div class="seperateLine">_________</div>
-              <div class = "menuItem" id = "skills">Skills</div>
+              <div class = "menuItem" onclick="scrollSkills()">Skills</div>
               <div class="seperateLine">_________</div>
 
             </ul>
@@ -100,7 +100,7 @@
     </div>
     <!--End of Resume Page---------------------------------------------------------------------------------------------------------------------------------------------------->
     <!--Project Page---------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div class="page project projectPage" id="projects">
+    <div class="page project projectPage" id="project">
         <div class="gridContainer">
             <div class= "grid-item grid-item-1" data-aos="zoom-in" data-aos-duration="1000">
                 <i class="fa-solid fa-file"></i>
