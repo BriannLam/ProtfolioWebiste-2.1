@@ -16,21 +16,41 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("unclicked!");
     });
 });
-  
 
-  function scrollAboutMe() {
-    const aboutMe = document.getElementById("aboutMe");
-    aboutMe.scrollIntoView();
-  }
-  function scrollResume() {
-    const resume = document.getElementById("resume");
-    resume.scrollIntoView();
-  }
-  function scrollProject() {
-    const project = document.getElementById("project");
-    project.scrollIntoView();
-  }
-  function scrollSkills() {
-    const skills = document.getElementById("skills");
-    skills.scrollIntoView();
-  }
+
+// Select all links with the class 'scroll'
+document.querySelectorAll('.menuItem').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent the default link behavior
+      
+      // Get the target section's position
+      const targetSection = document.querySelector(this.getAttribute('href'));
+      
+      // Smooth scroll to the section
+      window.scrollTo({
+          top: targetSection.offsetTop,
+          behavior: 'smooth' // Enable smooth scrolling
+      });
+  });
+});
+
+
+
+
+
+  // function scrollAboutMe() {
+  //   const aboutMe = document.getElementById("aboutMe");
+  //   aboutMe.scrollIntoView();
+  // }
+  // function scrollResume() {
+  //   const resume = document.getElementById("resume");
+  //   resume.scrollIntoView();
+  // }
+  // function scrollProject() {
+  //   const project = document.getElementById("project");
+  //   project.scrollIntoView();
+  // }
+  // function scrollSkills() {
+  //   const skills = document.getElementById("skills");
+  //   skills.scrollIntoView();
+  // }
