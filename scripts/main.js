@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Toggle the 'nav-open' class on the body element
         document.body.classList.toggle('nav-open');
         console.log("clicked!");
+        
     });
 
     // Add a click event listener to the menu-cover element
