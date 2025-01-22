@@ -35,8 +35,9 @@
 }
 
 @media (max-width: 700px) {
+
     .aboutMePage{
-        height: 50vh;
+        height: 70vh;
     }
     .profileText1Container{
         height: auto;
