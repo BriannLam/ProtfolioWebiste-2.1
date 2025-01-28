@@ -225,3 +225,10 @@ nav ul {
 .menuItem:hover{
   cursor: pointer;
 }
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
