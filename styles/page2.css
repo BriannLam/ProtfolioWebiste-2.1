@@ -15,7 +15,7 @@
 .pfp2 {
     height: 40vw;
     width: auto;
-    border: .5vw #dd8d40 solid;
+    border: .5vw #c3ebed solid;
     border-radius: 50%;
 }
 
@@ -47,10 +47,10 @@
         font-size: 4vw;
     }
     .pfp2 {
-        content: url('../assets/headshot3.png');
+        content: url('../assets/headshot2.3.png');
         height: 40vh;
         width: 50vw;
-        border: 1vw #dd8d40 solid;
+        border: 1vw #c3ebed solid;
         border-radius: 0;
     }
     .pfp2Container {

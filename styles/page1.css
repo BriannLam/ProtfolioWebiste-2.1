@@ -15,11 +15,11 @@
     position: absolute;
     z-index: 6;
     text-shadow: 
-    0px 0px 67.603px #dd8d40, 
-    0px 0px 135.205px #dd8d40, 
-    0px 0px 473.218px #dd8d40, 
-    0px 0px 946.436px #dd8d40, 
-    0px 0px 1622.462px #dd8d40;
+    0px 0px 67.603px #c3ebed, 
+    0px 0px 135.205px #c3ebed, 
+    0px 0px 473.218px #c3ebed, 
+    0px 0px 946.436px #c3ebed, 
+    0px 0px 1622.462px #c3ebed;
 
 }
 
@@ -58,7 +58,7 @@
 .pfp{
     height: 35vw;
     width: auto;
-    border: .5vw #dd8d40 solid;
+    border: .5vw #c3ebed solid;
     border-radius: 50%;
 }
 
@@ -124,7 +124,7 @@
     }
     .pfp{
         height: 45vw;
-        border: 1vw #dd8d40 solid;
+        border: 1vw #c3ebed solid;
     }
 
     .pfpContainer {

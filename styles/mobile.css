@@ -24,19 +24,19 @@
   
   .icon:hover {
       transform: scale(1.25);
-      background-color: #9e4d18;
-      border: 2vw solid #9e4d18;
+      background-color: #c3ebed;
+      border: 2vw solid #c3ebed;
   }
 
   .burger-wrap:hover {
-    background: #dd8d40;
+    background: #c3ebed;
     width:73px;
   }
   .burger-wrap {
-    background: #dd8d40;
+    background: #c3ebed;
   } 
   .hamburger div {
-    background: #dd8d40;
+    background: #c3ebed;
   }
   .hamburger span {
     color: transparent;
@@ -47,14 +47,14 @@
     width:100vw;
     height:8vh;
     background: #000;
-    border-bottom: 5px solid #dd8d40;
+    border-bottom: 5px solid #c3ebed;
     cursor:pointer;
     z-index:50;
     box-shadow: 
-    0px 0px 67.603px #dd8d40;
+    0px 0px 67.603px #c3ebed;
   }
   .burger-wrap:hover {
-    background:#ae622e;
+    background:#c3ebed;
     width:100vw;
   }
 }
