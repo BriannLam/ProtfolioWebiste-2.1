@@ -1,12 +1,17 @@
+body{
+    background-color: #D6D2B0;
+}
+
+
 .helloLocation{
-    background-color: blue;
     width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-}   
+    padding-top: 10vh;
+    }   
 
 .helloText{
-    font-size: 10rem;
+    font-family: "Jua", serif;
+    font-size: 20rem;
+    color: #242302;
 }
