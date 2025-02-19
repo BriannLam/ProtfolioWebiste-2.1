@@ -7,6 +7,7 @@ body{
     width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 10vh;
     }   
 
@@ -14,4 +15,9 @@ body{
     font-family: "Jua", serif;
     font-size: 20rem;
     color: #242302;
+    /* border-bottom: 1rem solid #242302; */
 }
+
+/* hr.solid{
+    border-top: 3px solid #bbb;
+} */
