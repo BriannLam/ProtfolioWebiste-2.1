@@ -16,17 +16,26 @@ body{
 
 .helloText{
     font-family: "Jua", serif;
-    font-size: 18rem;
+    font-size: 13rem;
     color: #242302;
     /* border-bottom: 1rem solid #242302; */
 }
 
 
 .underline{
-    width: 100%;
+    width: 60%;
     height: 15px;
     background-color: #242302;
 }
+
+.feedsTextLocation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .feedsText{
     font-family: "Jua", serif;
@@ -34,6 +43,7 @@ body{
     padding-top: 10vh;
     font-size: 3rem;
     text-align: center;
+    width: 80%;
 }
 
 .brandLocation{
@@ -105,8 +115,6 @@ body{
 
 }
 
-
-
 .color1{
     height: 100%;
     width: 8vw;
@@ -133,8 +141,20 @@ body{
     border: 3px solid black;
     box-shadow: 5px 10px black;
 }
+
+
+.feedsPageLocation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .FeedsHome{
     height: auto;
-    width: 80vw;
-    padding-top: 10vh;
+    width: 60vw;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
 }
