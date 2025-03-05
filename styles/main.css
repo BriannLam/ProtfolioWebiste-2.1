@@ -68,9 +68,30 @@ body {
 
 
 
+.menuLocation{
+  
+}
+
+
+.menuBar{
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: grey;
+}
+
+
+.fa-bars{
+  color: white;
+  text-align: end;
+  font-size: 3rem;
+}
+
+
+
 
 /* hamburger bellow-------------------------------------  */
-.hamburgerContainer:before, .hamburgerContainer:after {
+/* .hamburgerContainer:before, .hamburgerContainer:after {
   box-sizing: inherit;
 }
 
@@ -231,4 +252,4 @@ a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-}
+} */
