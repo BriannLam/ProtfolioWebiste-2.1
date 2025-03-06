@@ -6,7 +6,7 @@
 
 body {
     font-family: "Hind Siliguri", sans-serif;
-    background-color: black;
+    background-color: #1f2029;
     margin: 0;
     height: auto;
     overflow-x: hidden;
@@ -82,8 +82,9 @@ body {
 
 
 .fa-bars{
+  position: absolute;
+  right: 1rem;
   color: white;
-  text-align: end;
   font-size: 3rem;
 }
 
