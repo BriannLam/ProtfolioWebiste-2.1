@@ -16,19 +16,20 @@ body{
 
 .helloText{
     font-family: "Jua", serif;
-    font-size: 13rem;
+    font-size: 11rem;
     color: #242302;
     /* border-bottom: 1rem solid #242302; */
 }
 
 
 .underline{
-    width: 60%;
+    width: 50%;
     height: 15px;
     background-color: #242302;
 }
 
 .feedsTextLocation{
+    padding-bottom: 8rem;
     width: 100%;
     height: auto;
     display: flex;
@@ -154,7 +155,7 @@ body{
 
 .FeedsHome{
     height: auto;
-    width: 60vw;
+    width: 50vw;
     padding-top: 20vh;
     padding-bottom: 10vh;
 }
