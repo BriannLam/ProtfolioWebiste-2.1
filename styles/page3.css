@@ -19,6 +19,7 @@
     color: #FFF;
     font-family: Ruthie;
     top: 5%;
+    padding-right: 3vw;
     right: 0;
     font-size: 5vw;
     font-style: normal;
@@ -26,22 +27,21 @@
     line-height: normal;
     text-align: center;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #dd8d40;
+    -webkit-text-stroke-color: #79d0d5;
     text-shadow:
-    0px 0px 67.603px #dd8d40, 
-    0px 0px 135.205px #dd8d40, 
-    0px 0px 473.218px #dd8d40, 
-    0px 0px 946.436px #dd8d40;
-;
+    0px 0px 67.603px #c3ebed, 
+    0px 0px 135.205px #c3ebed, 
+    0px 0px 473.218px #c3ebed, 
+    0px 0px 946.436px #c3ebed;
 }
 
 
 .resumePic{
     padding: 2vw;
-    background-color: #c58543;
+    background-color: #c3ebed;
     width: 30vw;
     height: auto;
-    border: 0.5vw solid #9e4d18;
+    border: 0.5vw solid #79d0d5;
     border-radius: 10%;
     
 }
@@ -92,15 +92,18 @@
     }
     .resumePic{
         padding: 2vw;
-        background-color: #c58543;
+        background-color: #c3ebed;
         width: 50vw;
         height: auto;
-        border: 0.5vw solid #9e4d18;
+        border: 0.5vw solid #79d0d5;
         border-radius: 10%;
         
     }
 
     .resumeText{
         font-size: 10vw;
+        text-shadow:
+        0px 0px 67.603px #c3ebed, 
+        0px 0px 135.205px #c3ebed;
     }
 }

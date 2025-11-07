@@ -1,6 +1,7 @@
 .aboutMePage{
     height: 100vh;
     display: flex;
+    padding-bottom: 10vh;
 }
 
 .pfp2Container {
@@ -14,13 +15,13 @@
 .pfp2 {
     height: 40vw;
     width: auto;
-    border: .5vw #dd8d40 solid;
+    border: .5vw #c3ebed solid;
     border-radius: 50%;
 }
 
 .profileText1Container{
     position: absolute;
-    right: 3vw;
+    right: 5vw;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -29,33 +30,38 @@
 }
 
 .profileText1{
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: #FFF;
 }
 
 @media (max-width: 700px) {
+
     .aboutMePage{
-        height: 50vh;
+        height: 70vh;
     }
     .profileText1Container{
+        position: static;
+        width: 80%;
         height: auto;
-        padding-top: 6vh;
+        display: flex;
+        right: 10%;
     }
     .profileText1{
         font-size: 4vw;
     }
     .pfp2 {
-        content: url('../assets/headshot3.png');
+        content: url('../assets/headshot2.3.png');
         height: 40vh;
-        border: 1vw #dd8d40 solid;
+        width: 50vw;
+        border: 1vw #c3ebed solid;
         border-radius: 0;
     }
     .pfp2Container {
-        justify-content: right;
-        width: 50vw;
+        position: static;
+        justify-content: center;
+        width: 100vw;
         height: 100%;
-        align-items: start;
-        padding-top: 6vh;
+        align-items: center;
     }
     
 }
